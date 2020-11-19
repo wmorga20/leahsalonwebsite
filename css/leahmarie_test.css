@@ -1,0 +1,99 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px;
+    grid-template-areas: "image" "text";
+    position: absolute;
+
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+}
+
+.card-image {
+    grid-area: image;
+    background: url("../images/rose-petals-.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-content{
+    grid-area: text;
+    margin: 25px;
+}
+
+
+.fixed-top{
+    padding: 50px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+   
+}
+
+i {
+    margin-bottom: 30px;
+}
+
+
+.img1_rosepetals {
+    background-image: url(../images/rose-petals-.jpg);
+    background-size: 50%;
+   
+  
+
+}
+.img1_leah {
+    background-image: url(../images/leah_ponce_1.jpg);
+    background-size: 50%;
+}
+
+.img1 {
+
+     background-image: url(../images/akili_pink_edit.jpg);
+     background-size: 50%;
+ }
+ 
+.img2 {
+     background-image: url(../images/pink_wavy.jpg);
+     background-size: 50%;
+}
+
+.img3 {
+    background-image: url(../images/three_white.jpg);
+}
+
+.bg-image {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+  }
+
+
+.sidebar {
+    margin: 0;
+    padding: 50px;
+    width: 70px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
