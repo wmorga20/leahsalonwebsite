@@ -1,0 +1,176 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: -1;
+	background-color: rgb(247, 247, 247);
+	background-image: url("../images/plants_2.jpg");
+	background-size: cover;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 500px) {
+	.container {
+		position: absolute;
+		left: -100px;
+	 }
+}
+
+.column {
+	position: absolute;
+	width: 300px;
+	background-color: green;
+	right: 0;
+}
+
+#silkpress {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-right: 100px;
+	padding-bottom: 800px;
+}
+
+@media only screen and (max-width: 950px) {
+	#silkpress {
+		left: 10px;
+		width: 70%;
+		top: 100px;
+	 }
+}
+
+@media only screen and (max-width: 500px) {
+	#silkpress {
+		left: 10px;
+		width: 80%;
+		top: 100px;
+	 }
+}
+
+h1 {
+	position: relative;
+	width: 50%;
+	top: 520px;
+	left: 20px;
+	padding: 10px;
+	color: white;
+	background-color: black;
+	z-index: 6;
+	font-size: 5vw;
+}
+
+p {
+	position: relative;
+	height: 5px;
+	top: 60px;
+	left: 10px;
+	color: black;
+	font-size: 3vw;
+	padding-left: 10px;
+}
+
+.entry {
+	position: relative;
+	top: 480px;
+	padding: 10px;
+	border-style: solid;
+	background-color: white;
+	height: 420px;
+	width: 60%;
+	z-index: 5;
+}
+
+@media only screen and (max-width: 950px) {
+	.entry {
+		width: 60%;
+		padding: 10px;
+	 }
+}
+
+@media only screen and (max-width: 700px) {
+	.entry {
+		width: 70%;
+		padding: 10px;
+		height: 200px;
+	 }
+}
+
+.wrapper {
+	width: 100%;
+	height: 800px;
+	left: 170px;
+	top: 200px;
+	margin: auto;
+	padding-bottom: 200px;
+	position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+	.wrapper {
+		padding-bottom: 5px;
+	 }
+}
+
+#logo {
+	position: relative;
+	top: -80px;
+	right: 40px;
+}
+
+
+.sidebar {
+	padding: 50px;
+	width: 70px;
+	top: 0;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	z-index: 5;
+}
+
+@media only screen and (max-width: 950px) {
+	.sidebar {
+			width: 60px;
+			padding: 25px;
+	 }
+}
+
+@media only screen and (max-width: 700px) {
+	.sidebar {
+			width: 45px;
+			padding: 20px;
+	 }
+}
+
+.fixed-top {
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	right: 0;
+	z-index: 10;
+	top: 0;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: 140px;
+}
+
+i {
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+	i {
+		font-size: 50px;
+	 }
+}
