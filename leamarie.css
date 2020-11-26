@@ -41,6 +41,15 @@ body, html{
     height: auto;  
 }
 
+@media only screen and (max-width: 375px) {
+    .fixed-top {
+        position: fixed;
+        width: 100%;
+        padding: auto;
+ 
+     }
+ }
+
 #services-1 {
     width: 50%;
     background-color: rgb(136, 136, 136);
@@ -57,6 +66,12 @@ body, html{
   @media only screen and (max-width: 500px) {
     .center {
        width: 500px;
+    }
+ }
+
+ @media only screen and (max-width: 375px) {
+    .center {
+       width: 200px;
     }
  }
 
@@ -89,9 +104,27 @@ body, html{
 .img1 {
      background-image: url(../images/akili_pink_edit.jpg);
  }
+
+ @media only screen and (max-width: 500px) {
+	.img1 {
+        position: relative;
+        width: 1000px;
+        right: 200px;
+        z-index: -1;
+	 }
+}
  
 .img2 {
      background-image: url(../images/pink_wavy.jpg);    
+}
+
+@media only screen and (max-width: 500px) {
+	.img2 {
+        position: relative;
+        width: 1000px;
+        right: 200px;
+        z-index: -1;
+	 }
 }
 
 .img3 {

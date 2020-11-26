@@ -33,6 +33,13 @@ body, html {
 	 }
 }
 
+@media only screen and (max-width: 375px) {
+	.sidebar {
+			width: 20px;
+			padding: 20px;
+	 }
+}
+
 i {
 	margin-bottom: 30px;
 }
@@ -43,11 +50,26 @@ i {
 	 }
 }
 
+@media only screen and (max-width: 375px) {
+	i {
+		font-size: 25px;
+	 }
+}
+
 #logo {
 	position: relative;
 	top: -80px;
 	right: 40px;
 	z-index: 4;
+}
+
+@media only screen and (max-width: 375px) {
+	#logo {
+		font-size: 50px;
+		width: 220px;
+		padding-left: 120px;
+		padding-top: 25px;
+	 }
 }
 
 .container {
@@ -79,6 +101,14 @@ i {
 	 }
 }
 
+@media only screen and (max-width: 375px) {
+	.wrapper {
+		left: 10px;
+		top: 100px;
+		width: 70%;
+	 }
+}
+
 #leahPortrait {
 	position: absolute;
 	width: 500px;
@@ -98,6 +128,16 @@ i {
 		bottom: 30px;
 		top: 20px;
 		left: -20px;
+		 }
+}
+
+@media only screen and (max-width: 375px) {
+	#leahPortrait {
+		position: absolute;
+		width: 250px;
+		bottom: 30px;
+		top: 10px;
+		left: -10px;
 		 }
 }
 
@@ -123,6 +163,15 @@ h1 {
 		 }
 }
 
+@media only screen and (max-width: 375px) {
+	h1 {
+		position: absolute;
+		top: 100px;
+		left: 15px;
+		width: 100px;
+		 }
+}
+
 p {
 	position: relative;
 	width: 100%;
@@ -138,5 +187,16 @@ p {
 	p {
 		font-size: 15px;
 		top: 300px;
+	 }
+}
+
+@media only screen and (max-width: 375px) {
+	p {
+		position: relative;
+		font-size: 18px;
+		top: 300px;
+		padding-left: 20px;
+		left: 0;
+		max-width: 720px;
 	 }
 }
